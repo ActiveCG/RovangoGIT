@@ -21,6 +21,11 @@ public class PiggyMovement : MonoBehaviour {
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
 
+		#if UNITY_EDITOR
+			Move(h, v);
+		  	Turning ();
+
+		#else
 		if (Input.GetMouseButtonDown (0)) {
 			Ray camRaym = Camera.main.ScreenPointToRay (Input.mousePosition); //cast ray
 			RaycastHit floorHitm;
@@ -29,13 +34,13 @@ public class PiggyMovement : MonoBehaviour {
 				transform.position = new Vector3(floorHitm.point.x, transform.position.y, floorHitm.point.z);
 			}
 		}
-
-		//Move(h, v);
-		//Turning ();
+		#endif
+			
 	}
 
 	private void Move(float h, float v){
-		movement.Set (-h, 0f, -v); //movement vector direction
+		movement.Set (h, 0f, v); //movement vector direction
+		movement = Camera.main.transform.TransformDirection(movement);
 		movement = movement.normalized * speed * Time.deltaTime; //how much should move
 		piggyRB.MovePosition(transform.position + movement); //move to new position
 	}
@@ -45,7 +50,7 @@ public class PiggyMovement : MonoBehaviour {
 		RaycastHit floorHit;
 
 		if (Physics.Raycast (camRay, out floorHit, camRayLength, floorMask)) { //check for hit
-			Vector3 piggyToMouse = floorHit.point - transform.position;
+			Vector3 piggyToMouse = -floorHit.point + transform.position;
 			piggyToMouse.y = 0f; //make it on floor
 			Quaternion newRotation = Quaternion.LookRotation(piggyToMouse);
 			piggyRB.MoveRotation (newRotation); //rotate piggy
