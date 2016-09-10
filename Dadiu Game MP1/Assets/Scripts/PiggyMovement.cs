@@ -26,7 +26,7 @@ public class PiggyMovement : MonoBehaviour {
 			RaycastHit floorHitm;
 
 			if (Physics.Raycast (camRaym, out floorHitm, camRayLength, floorMask)) {
-				transform.position = floorHitm.point;
+				transform.position = new Vector3(floorHitm.point.x, transform.position.y, floorHitm.point.z);
 			}
 		}
 
