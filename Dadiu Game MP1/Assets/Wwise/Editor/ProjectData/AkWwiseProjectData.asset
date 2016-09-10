@@ -38,7 +38,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1850474830
       Guid: 5696eb70bbe65541a11f0ba89977bfad
-      maxAttenuation: 0
+      maxAttenuation: 50
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
