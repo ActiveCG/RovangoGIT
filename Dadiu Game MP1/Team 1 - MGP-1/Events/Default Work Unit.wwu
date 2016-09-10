@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9DB98639-0307-4FFE-BD16-0FC2A7467D6B}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9DB98639-0307-4FFE-BD16-0FC2A7467D6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Piglet_Scream" ID="{70EB9656-E6BB-4155-A11F-0BA89977BFAD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9E56B24D-7B51-4360-9C1D-C97A416DA0AE}" ShortID="289538318" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5D0067C5-DBEF-43F1-8878-A97673E1D1CA}" Global="false">
+									<ObjectRef Name="Pig_Scream" ID="{AD21B97C-C232-464B-A5E7-BC0B6DE4860A}" WorkUnitID="{DE1D4936-9F9F-4383-88A7-FB91DADFF321}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Piglet_Pickup" ID="{B3AE2627-F9D4-44D8-91BB-90A58D92D05E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E94A2031-3053-4A2B-9489-641A9E8CF373}" ShortID="513133966" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD12C501-6F43-4D7D-9072-E230EDFBB321}" Global="false">
+									<ObjectRef Name="Pig_Happy" ID="{31F90E08-A26E-45F3-BD4E-1143F290BC77}" WorkUnitID="{DE1D4936-9F9F-4383-88A7-FB91DADFF321}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

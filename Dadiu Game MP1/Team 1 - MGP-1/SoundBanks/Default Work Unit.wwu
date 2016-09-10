@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{634FB385-0020-4521-9C31-E7BA27A19102}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{634FB385-0020-4521-9C31-E7BA27A19102}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{402778DE-C293-470A-B8BB-B9F3C270CCA3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Piglet_Scream" ID="{70EB9656-E6BB-4155-A11F-0BA89977BFAD}" WorkUnitID="{9DB98639-0307-4FFE-BD16-0FC2A7467D6B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Piglet_Pickup" ID="{B3AE2627-F9D4-44D8-91BB-90A58D92D05E}" WorkUnitID="{9DB98639-0307-4FFE-BD16-0FC2A7467D6B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

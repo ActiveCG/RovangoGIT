@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\GeneratedSoundBanks\iOS\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3181627793" Name="Piglet_Pickup" ObjectPath="\Events\Default Work Unit\Piglet_Pickup" MaxAttenuation="50.000000"/>
+				<Event Id="2444492466" Name="Piglet_Scream" ObjectPath="\Events\Default Work Unit\Piglet_Scream" MaxAttenuation="50.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="23777914" Language="SFX">
+					<ShortName>Pig_Happy_3.wav</ShortName>
+					<Path>SFX\Pig_Happy_3_9E69E797.wem</Path>
+				</File>
+				<File Id="272512363" Language="SFX">
+					<ShortName>Pig_Happy_2.wav</ShortName>
+					<Path>SFX\Pig_Happy_2_9E69E797.wem</Path>
+				</File>
+				<File Id="391142184" Language="SFX">
+					<ShortName>Pig_Happy.wav</ShortName>
+					<Path>SFX\Pig_Happy_9E69E797.wem</Path>
+				</File>
+				<File Id="420215224" Language="SFX">
+					<ShortName>Pig_Scream_2.wav</ShortName>
+					<Path>SFX\Pig_Scream_2_9E69E797.wem</Path>
+				</File>
+				<File Id="548247002" Language="SFX">
+					<ShortName>Pig_Scream_3.wav</ShortName>
+					<Path>SFX\Pig_Scream_3_9E69E797.wem</Path>
+				</File>
+				<File Id="584215297" Language="SFX">
+					<ShortName>Pig_Scream_1.wav</ShortName>
+					<Path>SFX\Pig_Scream_1_9E69E797.wem</Path>
+				</File>
+				<File Id="634330294" Language="SFX">
+					<ShortName>Pig_Scream.wav</ShortName>
+					<Path>SFX\Pig_Scream_9E69E797.wem</Path>
+				</File>
+				<File Id="650715191" Language="SFX">
+					<ShortName>Pig_Happy_1.wav</ShortName>
+					<Path>SFX\Pig_Happy_1_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
