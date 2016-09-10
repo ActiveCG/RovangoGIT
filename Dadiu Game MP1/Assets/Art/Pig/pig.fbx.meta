@@ -101,6 +101,16 @@ ModelImporter:
     100186: Pig:jnt_tail_02
     100188: Pig:jnt_tail_03
     100190: Pig:jnt_tail_04
+    100192: Camera
+    100194: Lamp
+    100196: Pig:jnt_l_back_footEnd_end
+    100198: Pig:jnt_l_ear_05_end
+    100200: Pig:jnt_l_front_footEnd_end
+    100202: Pig:jnt_noseEnd_end
+    100204: Pig:jnt_r_back_footEnd_end
+    100206: Pig:jnt_r_ear_05_end
+    100208: Pig:jnt_r_front_footEnd_end
+    100210: Pig:jnt_tail_04_end
     400000: GRP_pig_geo
     400002: GRP_pig_jnt
     400004: GRP_pig_rig
@@ -197,8 +207,19 @@ ModelImporter:
     400186: Pig:jnt_tail_02
     400188: Pig:jnt_tail_03
     400190: Pig:jnt_tail_04
+    400192: Camera
+    400194: Lamp
+    400196: Pig:jnt_l_back_footEnd_end
+    400198: Pig:jnt_l_ear_05_end
+    400200: Pig:jnt_l_front_footEnd_end
+    400202: Pig:jnt_noseEnd_end
+    400204: Pig:jnt_r_back_footEnd_end
+    400206: Pig:jnt_r_ear_05_end
+    400208: Pig:jnt_r_front_footEnd_end
+    400210: Pig:jnt_tail_04_end
     4300000: Pig:geo_pig
     7400000: Take 001
+    7400002: Pig:ctrl_main|Pig:ctrl_main|Take 001|BaseLayer
     9500000: //RootNode
     13700000: Pig:geo_pig
   materials:
