@@ -33,13 +33,13 @@ public class PiggyHealth : MonoBehaviour {
 		//piggyWeapon.enabled = false; //turn of weapons and their effects
 		gameObject.SetActive(false); //hide the piggy or death animation for future!!
 		print ("you got eaten!!!");
-		//Application.LoadLevel ("game over");
+		Application.LoadLevel ("game over");
 	}
 
 	void OnTriggerEnter(Collider hittingCollider){
 		if (hittingCollider.name == "Prize") {
 			print ("you win!!!");
-			//Application.LoadLevel ("you win");
+			Application.LoadLevel ("you win");
 		}
 	}
 }
