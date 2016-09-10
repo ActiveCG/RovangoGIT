@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE1D4936-9F9F-4383-88A7-FB91DADFF321}" SchemaVersion="72">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{DE1D4936-9F9F-4383-88A7-FB91DADFF321}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Pig_Happy" ID="{31F90E08-A26E-45F3-BD4E-1143F290BC77}" ShortID="241839466">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5B560E30-8DA6-40F8-86F8-CD67908B96F3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance Attenuation" ID="{BE7B56FF-53D8-4D7C-BA00-E66D5D1BB69E}" WorkUnitID="{2A302BF5-F31B-4299-A9C9-F65807CE74FF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pig_Happy" ID="{6A10BFA7-8448-4C8B-9A22-1708EDBCC78F}" ShortID="899632477" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Happy" ID="{3A4CC081-36F2-46B0-B893-7EB0524FB48D}" ShortID="391142184">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Happy.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Happy" ID="{3A4CC081-36F2-46B0-B893-7EB0524FB48D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Happy_1" ID="{E1D01F63-FD8D-4412-823A-8FD214E02F89}" ShortID="158814873" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Happy_1" ID="{35D5E591-531E-4F3E-ACF0-F94C4EDA56A5}" ShortID="650715191">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Happy_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Happy_1" ID="{35D5E591-531E-4F3E-ACF0-F94C4EDA56A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Happy_2" ID="{D781DF32-6C46-4FB9-84B6-99BF94767984}" ShortID="378260484" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Happy_2" ID="{7D6DC2DA-E094-4888-9A31-56DDEB7668F0}" ShortID="272512363">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Happy_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Happy_2" ID="{7D6DC2DA-E094-4888-9A31-56DDEB7668F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Happy_3" ID="{25DD5605-F905-48DB-BD99-18A0E3CDD552}" ShortID="484371636" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Happy_3" ID="{68776B8D-32FC-470C-9CD5-30FD4230B24A}" ShortID="23777914">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Happy_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Happy_3" ID="{68776B8D-32FC-470C-9CD5-30FD4230B24A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pig_Scream" ID="{AD21B97C-C232-464B-A5E7-BC0B6DE4860A}" ShortID="777373320">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4EAB27E-1394-4D40-AD74-BA589DB7496B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance Attenuation" ID="{BE7B56FF-53D8-4D7C-BA00-E66D5D1BB69E}" WorkUnitID="{2A302BF5-F31B-4299-A9C9-F65807CE74FF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pig_Scream" ID="{F10FDACC-81E8-476B-9E6B-E9851C81E461}" ShortID="755007570" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Scream" ID="{EFC55501-B1C5-43EF-B57D-6A021A85545B}" ShortID="634330294">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Scream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Scream" ID="{EFC55501-B1C5-43EF-B57D-6A021A85545B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Scream_1" ID="{84A241C0-8F02-43A9-B7BF-A6F1AD51ABE3}" ShortID="103824468" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Scream_1" ID="{1FA1ABE7-8563-4269-B07C-530872D1C9D6}" ShortID="584215297">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Scream_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Scream_1" ID="{1FA1ABE7-8563-4269-B07C-530872D1C9D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Scream_2" ID="{CB5DDB2E-5DE8-4031-807F-53288EF391E3}" ShortID="39779564" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Scream_2" ID="{FF53F062-B55C-4CDD-ACE8-5C0B1BE0A264}" ShortID="420215224">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Scream_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Scream_2" ID="{FF53F062-B55C-4CDD-ACE8-5C0B1BE0A264}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig_Scream_3" ID="{1F4B147F-FDC6-4C14-BEEE-82480F557E48}" ShortID="639870414" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1CCD5E7C-FD2C-4EFD-876B-FD189EDEA1A8}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{98CB693E-079C-49E4-B8CD-6D3D6BA88543}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B7CFD6-C0C2-40EF-96CB-E8601B76C4C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig_Scream_3" ID="{14C0C7BB-F83F-414F-A07C-CB95D6ACB220}" ShortID="548247002">
+									<Language>SFX</Language>
+									<AudioFile>Pig_Scream_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig_Scream_3" ID="{14C0C7BB-F83F-414F-A07C-CB95D6ACB220}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

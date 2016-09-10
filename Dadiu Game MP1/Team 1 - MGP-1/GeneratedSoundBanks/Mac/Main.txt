@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2444492466	Piglet_Scream			\Default Work Unit\Piglet_Scream	
+	3181627793	Piglet_Pickup			\Default Work Unit\Piglet_Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23777914	Pig_Happy_3	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Happy_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_3		100928
+	272512363	Pig_Happy_2	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Happy_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_2		44864
+	391142184	Pig_Happy	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Happy_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy		88128
+	420215224	Pig_Scream_2	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Scream_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_2		116800
+	548247002	Pig_Scream_3	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Scream_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_3		81984
+	584215297	Pig_Scream_1	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Scream_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_1		133970
+	634330294	Pig_Scream	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Scream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream		174144
+	650715191	Pig_Happy_1	C:\Users\DADIU-1\PiggyGame1\Team 1 - MGP-1\.cache\Mac\SFX\Pig_Happy_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_1		59968
+
