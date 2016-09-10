@@ -1,0 +1,1 @@
+Folder for saving the scenes and prefabs to manually merge them after finishing the task
