@@ -10,7 +10,7 @@ public class ProjectBuilder {
 	//static string path = "C:/Builds";
 
 	static string APP_NAME = "PiggyGame";
-	static string TARGET_DIR = "C:/Users/SULEZ/Documents/DevelopmentJenkins/Unitybuilds";
+	static string TARGET_DIR = "Builds"; //"C:/Users/SULEZ/Documents/DevelopmentJenkins/Unitybuilds";
 
 
 	public static void BuildProject(){
